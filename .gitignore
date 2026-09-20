@@ -1,0 +1,54 @@
+# ============================================
+# DEPENDENCIES
+# ============================================
+node_modules/
+*/node_modules/
+**/node_modules/
+
+.env
+
+
+*/.next/
+*/build/
+*/dist/
+out/
+*.tsbuildinfo
+
+# ============================================
+# LOGS
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ============================================
+# UPLOADS & TEMP
+# ============================================
+uploads/
+temp/
+tmp/
+*.tmp
+
+qdrant_storage/
+qdrant-data/
+
+ollama_data/
+ollama-data/
+ollama_models/
+
+.vscode/
+
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
